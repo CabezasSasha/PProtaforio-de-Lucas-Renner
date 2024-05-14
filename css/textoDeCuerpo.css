@@ -1,0 +1,51 @@
+
+/* Estilo para el contenedor principal de la sección */
+.grupoCuerpo {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+/* Estilo para el contenedor del título */
+.grupotTitulo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+/* Estilo para el título */
+.tituloCuerpo {
+  color: #e4deff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+/* Estilo para el contenedor del párrafo */
+.grupoParrafo {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Estilo para el párrafo de texto */
+.texto {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Estilo para el texto1 */
+.texto1 {
+  width: 45%;
+  justify-content: flex-start;
+}
+
+/* Estilo para el texto2 */
+.texto2 {
+  font-style: italic;
+  width: 45%;
+  text-align: right;
+  justify-content: flex-end;
+}

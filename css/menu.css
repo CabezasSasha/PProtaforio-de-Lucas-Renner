@@ -1,0 +1,116 @@
+/* Estilo para el encabezado */
+.HeadMenu {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+  }
+
+/* Estilo para el contenedor principal del menú */
+.seletorMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  z-index: 1000;                       
+}
+
+/* Estilo para el contenedor de la imagen y el texto */
+.menuGenerar1 {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+/* Estilo para la imagen especial */
+.especialFoto {
+  background-color: rgb(177, 173, 173);
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* Estilo para la imagen dentro del contenedor */
+.fotoDeMenu {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Estilo para el contenedor del texto */
+.TextoTitulo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Estilo para el título y descripción del menú */
+.TituloMenu .mapaMenu {
+  margin: 0;
+  color: #fff;
+}
+
+.TituloMenu {
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+.mapaMenu {
+  margin: 0;
+  text-align: center;
+}
+
+/* Estilo para el contenedor del menú de navegación */
+.MunuGeneralDeNac {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+  }
+  
+/* Estilo para el menú de navegación */
+.NavMenu {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo para la lista del menú */
+.munu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+/* Estilo para los elementos de la lista del menú */
+.subMenu {
+  margin-right: 20px;
+}
+
+/* Estilo para los enlaces del menú */
+.subADeMenu {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* Estilo para los enlaces del menú al pasar el ratón por encima */
+.subADeMenu:hover {
+  color: #ddd;
+}

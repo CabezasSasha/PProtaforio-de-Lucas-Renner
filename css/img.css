@@ -1,0 +1,36 @@
+/* Estilo para el contenedor principal de las fotos */
+.GrupoFoto {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+/* Estilo para el contenedor de cada foto */
+.contenedorFoto {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-right: 4%;
+  }
+
+/* Estilo para las imágenes */
+.fotos {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .foto1 {
+    height: 100%;
+  }
+  
+  .foto2 {
+    height: 75%;
+  }
+  
+  .foto3 {
+    height: 50%;
+  }
+  
+  .fotos4 {
+    height: 25%;
+  }
